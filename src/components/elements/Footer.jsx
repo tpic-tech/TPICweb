@@ -3,7 +3,6 @@ import logo from "../../assets/c3 copy.png";
 import collegeLogo from "../../../src/assets/HNBG-new-logo 1.png";
 import { Link, NavLink } from "react-router-dom";
 
-
 function Footer() {
   return (
     <>
@@ -103,7 +102,8 @@ function Footer() {
                 Important Links
               </h2>
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">
-                <li><NavLink
+                <li>
+                  <NavLink
                     to="discover"
                     className={({ isActive }) =>
                       `duration-200 ${
@@ -112,8 +112,10 @@ function Footer() {
                     }
                   >
                     Who we are?
-                  </NavLink></li>
-                <li><NavLink
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="discover/thrust-areas"
                     className={({ isActive }) =>
                       `duration-200 ${
@@ -122,8 +124,10 @@ function Footer() {
                     }
                   >
                     How TPIC works
-                  </NavLink></li>
-                <li><NavLink
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="team"
                     className={({ isActive }) =>
                       `duration-200 ${
@@ -132,8 +136,10 @@ function Footer() {
                     }
                   >
                     Meet the Team
-                  </NavLink></li>
-                <li><NavLink
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="discover/partners-and-collaborators"
                     className={({ isActive }) =>
                       `duration-200 ${
@@ -142,8 +148,10 @@ function Footer() {
                     }
                   >
                     Partners and Collaborators
-                  </NavLink></li>
-                <li><NavLink
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="connect"
                     className={({ isActive }) =>
                       `duration-200 ${
@@ -152,7 +160,8 @@ function Footer() {
                     }
                   >
                     Contact Us
-                  </NavLink></li>
+                  </NavLink>
+                </li>
               </ul>
             </nav>
             <nav className="mb-4">
@@ -160,21 +169,31 @@ function Footer() {
                 Follow us on
               </h2>
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">
-                <li className="hover:text-base2"><a href="">Facebook</a></li>
-                <li className="hover:text-base2"><a href="">Instagram</a></li>
-                <li className="hover:text-base2"><a href="">Twitter</a></li>
-                <li className="hover:text-base2"><a href="">LinkedIn</a></li>
+                <li className="hover:text-base2">
+                  <a href="">Facebook</a>
+                </li>
+                <li className="hover:text-base2">
+                  <a href="">Instagram</a>
+                </li>
+                <li className="hover:text-base2">
+                  <a href="">Twitter</a>
+                </li>
+                <li className="hover:text-base2">
+                  <a href="">LinkedIn</a>
+                </li>
               </ul>
             </nav>
           </div>
           <div className=" flex flex-wrap flex-col justify-center items-center text-center mt-8">
-            <img
-              src={collegeLogo}
-              alt="College Logo"
-              width={100}
-              height={100}
-              className="flex w-[32px] sm:w-[48px] object-cover rounded-full mb-2"
-            />
+            <a href="https://www.hnbgu.ac.in/">
+              <img
+                src={collegeLogo}
+                alt="College Logo"
+                width={100}
+                height={100}
+                className="flex w-[32px] sm:w-[48px] object-cover rounded-full mb-2"
+              />
+            </a>
             <h3 className="text-white/50 font-Montserrat text-[12px] font-semibold leading-[135%]">
               Copyright 2024 TPIC HNBGU. All Rights Reserved
             </h3>
