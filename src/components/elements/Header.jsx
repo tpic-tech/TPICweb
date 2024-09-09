@@ -181,8 +181,8 @@ const Header = () => {
                 to="/"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -194,8 +194,8 @@ const Header = () => {
                 to="initiatives"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -207,8 +207,8 @@ const Header = () => {
                 to="learn"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -220,8 +220,8 @@ const Header = () => {
                 to="events"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -233,8 +233,8 @@ const Header = () => {
                 to="gallery"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -246,8 +246,8 @@ const Header = () => {
                 to="team"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
@@ -259,8 +259,8 @@ const Header = () => {
                 to="connect"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-lightBlue font-bold" : "text-white"
+                  `block pr-4 pl-3 duration-200 ${
+                    isActive ? "text-base2 font-bold" : "text-white"
                   }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                 }
               >
