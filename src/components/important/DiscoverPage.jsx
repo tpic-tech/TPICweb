@@ -4,7 +4,7 @@ function DiscoverPage() {
   return (
     <>
     <div className='max-w-screen-lg mx-auto flex flex-wrap justify-center item-center mt-6 px-6'>
-      <h1 className='text-base2 font-SFPro text-[20px] sm:text-[32px] md:text-[48px] font-bold'>
+      <h1 className='text-base2 font-SFPro text-[32px] sm:text-[40px] md:text-[48px] font-bold'>
         Discover
       </h1>
       <p className='mt-4 text-white text-center text-[16px] sm:text-[20px] -tracking-tight'>

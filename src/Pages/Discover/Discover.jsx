@@ -32,7 +32,7 @@ function Discover() {
         <div className="w-full bg-base/60">
           <div className="px-6 py-2 sm:py-4 pb-4 flex flex-wrap max-w-screen-xl justify-evenly mx-auto text-white">
             <div className="w-full overflow-x-auto lg:overflow-visible">
-              <ul className="flex mt-4 font-bold text-[16px] font-Montserrat leading-[135%] space-x-4 lg:flex-row lg:space-x-24 lg:mt-0 whitespace-nowrap">
+              <ul className="flex mt-4 font-bold text-[16px] font-Montserrat leading-[135%] space-x-8 lg:flex-row lg:space-x-24 lg:mt-0 whitespace-nowrap">
                 <li>
                   <NavLink
                     to=""

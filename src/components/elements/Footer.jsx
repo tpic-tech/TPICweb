@@ -173,7 +173,7 @@ function Footer() {
               alt="College Logo"
               width={100}
               height={100}
-              className="flex w-[20px] sm:w-[32px] md:w-[44px] object-cover rounded-full mb-2"
+              className="flex w-[32px] sm:w-[48px] object-cover rounded-full mb-2"
             />
             <h3 className="text-white/50 font-Montserrat text-[12px] font-semibold leading-[135%]">
               Copyright 2024 TPIC HNBGU. All Rights Reserved
