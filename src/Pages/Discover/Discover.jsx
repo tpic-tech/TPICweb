@@ -6,7 +6,7 @@ import DiscoverPage from "../../components/important/DiscoverPage";
 function Discover() {
   return (
     <>
-      <div className="bg-black">
+      <div className="">
         <div className="">
           <img
             src={discover}
@@ -18,7 +18,7 @@ function Discover() {
               <p className="text-[16px] sm:text-[24px] font-semibold tracking-widest -mb-4 sm:-mb-6">
                 GET TO KNOW MORE ABOUT
               </p>
-              <h1 className="text-base2 text-[64px] sm:text-[96px] font-bold">
+              <h1 className="text-base3 text-[64px] sm:text-[96px] font-bold">
                 <span className="tracking-[0.6em]">T</span>
                 <span className="tracking-[0.6em]">P</span>
                 <span className="tracking-[0.6em]">I</span>C
@@ -35,14 +35,14 @@ function Discover() {
               <ul className="flex mt-4 font-bold text-[16px] font-Montserrat leading-[135%] space-x-8 lg:flex-row lg:space-x-24 lg:mt-0 whitespace-nowrap">
                 <li>
                   <NavLink
-                    to=""
+                    to="who-we-are"
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive ? "text-base2 font-bold" : "text-white"
                       } hover:text-base2`
                     }
                   >
-                    Discover
+                    Who we are?
                   </NavLink>
                 </li>
                 <li>

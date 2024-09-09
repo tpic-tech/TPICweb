@@ -37,7 +37,7 @@ const Router =  createBrowserRouter ([
         element: <Discover/>,
         children: [
           {
-            path: "",
+            path: "who-we-are",
             element: <DiscoverPage/>
           },
           {

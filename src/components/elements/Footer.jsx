@@ -104,7 +104,7 @@ function Footer() {
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">
                 <li>
                   <NavLink
-                    to="discover"
+                    to="discover/who-we-are"
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive ? "text-base2 font-bold" : "text-white"

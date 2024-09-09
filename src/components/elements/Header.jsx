@@ -1,14 +1,23 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/HNBG-new-logo 1.png";
 
 const Header = () => {
   const [isSideBarOpen, setIsSideBarOpen] = useState(true);
+  const [isEventDropDownOpen, setIsEventDropDownOpen] = useState(false); 
+  const [isDiscoverDropDownOpen, setIsDiscoverDropDownOpen] = useState(false); 
 
   const toggleSideBar = () => {
     setIsSideBarOpen(!isSideBarOpen);
   };
+
+  const toggleDiscoverDropDown = () => {
+    setIsDiscoverDropDownOpen(!isDiscoverDropDownOpen);
+  };
+  const toggleEventDropDown = () => {
+    setIsEventDropDownOpen(!isEventDropDownOpen);
+  };
+
   return (
     <>
       <header className="stickry z-50 top-0">
@@ -59,16 +68,16 @@ const Header = () => {
               <ul className="flex flex-col mt-4 font-bold text-[18px] font-SFProDisplay leading-[135%] lg:flex-row lg:space-x-16 lg:mt-0">
                 <li>
                   <NavLink
-                    to=""
+                    to="discover"
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full `
                     }
                   >
-                    Home
+                    Discover
                   </NavLink>
                 </li>
                 <li>
@@ -77,9 +86,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
                     }
                   >
                     Initiatives
@@ -91,9 +100,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
                     }
                   >
                     Learn
@@ -105,9 +114,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
                     }
                   >
                     Events
@@ -119,9 +128,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
                     }
                   >
                     Gallery
@@ -133,9 +142,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%]`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
                     }
                   >
                     Connect
@@ -175,93 +184,222 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <ul className="mt-4 font-poppins text-[16px] font-medium">
-            <li className="py-2 px-4 ">
+          <ul className="mt-4 font-SFProDisplay text-[16px] font-medium">
+            <li className="py-2 px-4">
               <NavLink
-                to="/"
-                onClick={toggleSideBar}
+                to="discover"
+                onClick={toggleDiscoverDropDown}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
-                Home
+                Discover
               </NavLink>
+
+              {/* Dropdown options */}
+              {isDiscoverDropDownOpen && (
+                <ul className=" text-white font-SFProDisplay">
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/who-we-are"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Who we are?
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/mission-and-vision"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Our Mission and Vision
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/culture"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Culture
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/thrust-areas"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Thrust Areas
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/nodes"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Nodes of TPIC
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="discover/partners-abd-collaborators"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Partners and Collaborators
+                    </NavLink>
+                  </li>
+                </ul>
+              )}
             </li>
-            <li className="py-2 px-4 ">
+            <li className="py-2 px-4">
               <NavLink
                 to="initiatives"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
-                initiatives
+                Initiatives
               </NavLink>
             </li>
-            <li className="py-2 px-4 ">
+            <li className="py-2 px-4">
               <NavLink
                 to="learn"
-                onClick={toggleSideBar}
+                onClick={toggleEventDropDown}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
                 Learn
               </NavLink>
+
+              {/* Dropdown options */}
+              {isEventDropDownOpen && (
+                <ul className=" text-white font-SFProDisplay">
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="learn/blogs"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Blogs
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="learn/newsletter"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Newsletter
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="learn/startup-guide"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      StartUp Guide
+                    </NavLink>
+                  </li>
+                  <li className="py-1 px-4">
+                    <NavLink
+                      to="learn/incubators"
+                      onClick={toggleSideBar}
+                      className={({ isActive }) =>
+                        `block pr-4 pl-3 duration-200 ${
+                          isActive ? "text-base2 font-bold" : "text-white"
+                        } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                      }
+                    >
+                      Incubators
+                    </NavLink>
+                  </li>
+                  </ul>
+              )}
             </li>
-            <li className="py-2 px-4 ">
+            <li className="py-2 px-4">
               <NavLink
                 to="events"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
                 Events
               </NavLink>
             </li>
-            <li className="py-2 px-4 ">
+            <li className="py-2 px-4">
               <NavLink
                 to="gallery"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
                 Gallery
               </NavLink>
             </li>
-            <li className="py-2 px-4 ">
-              <NavLink
-                to="team"
-                onClick={toggleSideBar}
-                className={({ isActive }) =>
-                  `block pr-4 pl-3 duration-200 ${
-                    isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
-                }
-              >
-                Team
-              </NavLink>
-            </li>
-            <li className="py-2 px-4 ">
+            <li className="py-2 px-4">
               <NavLink
                 to="connect"
                 onClick={toggleSideBar}
                 className={({ isActive }) =>
                   `block pr-4 pl-3 duration-200 ${
                     isActive ? "text-base2 font-bold" : "text-white"
-                  }  hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
+                  } hover:text-base2 lg:p-0`
                 }
               >
                 Connect

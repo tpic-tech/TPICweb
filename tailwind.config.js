@@ -12,7 +12,8 @@ export default {
         lightBlue: "#87CEFA",
         blue: "#007FFF",
         base: "#038036",
-        base2: "#00FA9A"
+        base2: "#FFFF00",
+        base3: "#00FA9A"
       },
       spacing: {},
       fontFamily: {
