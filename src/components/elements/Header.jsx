@@ -31,6 +31,14 @@ const Header = () => {
                 height={100}
                 className="w-[40px] sm:w-[50px] md:w-[60px] object-cover rounded-full"
               />
+              <div className="ml-4 hidden md:block font-SFProDisplay font-bold">
+                <h1 className="text-[20px] leading-[135%] text-base2">
+                  Technology Pre-Incubation Cell
+                </h1>
+                <h2 className="text-[13px] font-semibold text-white tracking-normal -mt-[2px]">
+                  Hemvati Nandan Bahuguna Garhwal University
+                </h2>
+              </div>
             </Link>
             <div className="block lg:hidden" onClick={toggleSideBar}>
               <svg
@@ -65,7 +73,7 @@ const Header = () => {
               className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
               id="mobile-menu-2"
             >
-              <ul className="flex flex-col mt-4 font-bold text-[18px] font-SFProDisplay leading-[135%] lg:flex-row lg:space-x-16 lg:mt-0">
+              <ul className="flex flex-col mt-4 font-bold text-[18px] font-SFProDisplay leading-[135%] lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <NavLink
                     to=""
