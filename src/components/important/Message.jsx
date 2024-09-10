@@ -30,10 +30,10 @@ function Message() {
             </div>
           </div>
           <div className=" flex flex-wrap pt-8">
-            <h2 className="text-[24px] font-Montserrat font-bold leading-[135%] text-base3 text-justify">
+            <h2 className="text-[24px] font-Montserrat font-bold leading-[135%] text-base3 text-center">
               Ideate. Incubate. Inovtate. Serve
             </h2>
-            <p className="text-[16px] font-Montserrat font-normal leading-[135%] text-white text-justify mt-2">
+            <p className="text-[14px] sm:text-[16px] font-Montserrat font-normal leading-[135%] text-white text-justify mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
               obcaecati quasi odit, aliquam necessitatibus est placeat eum nulla
               dolore consequatur, quidem, blanditiis eligendi laboriosam
