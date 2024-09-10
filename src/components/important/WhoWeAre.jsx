@@ -73,7 +73,7 @@ function WhoWeAre() {
                 The cell offers a range of services including mentorship, access
                 to resources, and networking opportunities.
               </p>
-              <button className="mt-8 border-2  border-slate-700 hover:border-slate-500 bg-slate-700 hover:bg-slate-500 text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[12px] sm:text-[16px]">
+              <button className="mt-8 border-2  border-slate-700 hover:border-slate-500 bg-slate-700 hover:bg-slate-500 text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[16px] sm:text-[16px]">
                 <Link to="discover/who-we-are">
                   Get to know more about TPIC &rarr;
                 </Link>
