@@ -10,7 +10,7 @@ function DiscoverPage() {
       <h1 className='text-base3 font-SFPro text-[32px] sm:text-[40px] md:text-[48px] font-bold leading-[135%]'>
         Who we are?
       </h1>
-      <div className='text-center mt-4 inline-block h-1 w-[320px] bg-base2 rounded-lg'></div>
+      <div className='text-center mt-4 inline-block h-1 w-[160px] sm:w-[240px] md:w-[320px] bg-base2 rounded-lg'></div>
       </div>
       <p className='mt-10 text-white text-center text-[16px] sm:text-[20px] -tracking-tight leading-[135%]'>
       The Technology Pre-Incubation Cell is a supportive framework designed to nurture and develop early-stage tech ideas and innovations. It serves as a foundational platform for aspiring entrepreneurs, researchers, and students to refine their concepts and transform them into viable business models. <br />

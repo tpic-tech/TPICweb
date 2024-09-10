@@ -11,7 +11,7 @@ function Message() {
           </h1>
           <div className="text-center mt-4 inline-block h-1 w-[320px] bg-base2 rounded-lg"></div>
         </div>
-        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-16 rounded-md border-2 border-base3 p-10 ">
+        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-16 rounded-md border-2 border-base3 py-10 px-4 sm:px-10 ">
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
               src={teacher}
@@ -30,7 +30,7 @@ function Message() {
             </div>
           </div>
           <div className=" flex flex-wrap pt-8">
-            <h2 className="text-[24px] font-Montserrat font-bold leading-[135%] text-base3 text-center">
+            <h2 className="text-[16px] sm:text-[20px] md:text-[24px] font-Montserrat font-bold leading-[135%] text-base3 text-center">
               Ideate. Incubate. Inovtate. Serve
             </h2>
             <p className="text-[14px] sm:text-[16px] font-Montserrat font-normal leading-[135%] text-white text-justify mt-2">

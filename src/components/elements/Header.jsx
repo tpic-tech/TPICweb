@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       <header className=" sticky z-50 top-0">
-        <nav className="bg-base backdrop-blur-[8px] px-4 lg:px-6 py-4">
+        <nav className="bg-base backdrop-blur-[8px] px-4 lg:px-6 py-2">
           <div className="flex flex-wrap justify-between items-center max-w-screen-xl mx-auto">
             <Link to="/" className="flex items-center">
               <img
@@ -68,13 +68,27 @@ const Header = () => {
               <ul className="flex flex-col mt-4 font-bold text-[18px] font-SFProDisplay leading-[135%] lg:flex-row lg:space-x-16 lg:mt-0">
                 <li>
                   <NavLink
+                    to=""
+                    className={({ isActive }) =>
+                      `duration-200 ${
+                        isActive
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
+                          : "text-white font-medium"
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
                     to="discover"
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full `
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Discover
@@ -86,9 +100,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full `
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Initiatives
@@ -100,9 +114,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Learn
@@ -114,9 +128,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Events
@@ -128,9 +142,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Gallery
@@ -142,9 +156,9 @@ const Header = () => {
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
-                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
+                          ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all after:mt-[10px]"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full hover:after:mt-[10px]`
                     }
                   >
                     Connect
