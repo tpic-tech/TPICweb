@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="stickry z-50 top-0">
+      <header className=" sticky z-50 top-0">
         <nav className="bg-base backdrop-blur-[8px] px-4 lg:px-6 py-4">
           <div className="flex flex-wrap justify-between items-center max-w-screen-xl mx-auto">
             <Link to="/" className="flex items-center">
@@ -32,7 +32,7 @@ const Header = () => {
                 className="w-[40px] sm:w-[50px] md:w-[60px] object-cover rounded-full"
               />
             </Link>
-            <div className="block sm:hidden" onClick={toggleSideBar}>
+            <div className="block lg:hidden" onClick={toggleSideBar}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -88,7 +88,7 @@ const Header = () => {
                         isActive
                           ? "text-base2 font-bold inline-block after:block after:h-1 after:w-full after:bg-base2 after:transition-all"
                           : "text-white font-medium"
-                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full`
+                      } hover:text-base2 font-SFProDisplay leading-[135%] inline-block after:block after:h-1 after:w-0 after:bg-base2 after:transition-all hover:after:w-full `
                     }
                   >
                     Initiatives
