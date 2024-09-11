@@ -22,7 +22,7 @@ function WhatWeDo() {
           Through the vision of 'Ideate, Incubate, Innovate, and Serve,' TPIC HNBGU actively organizes initiatives and events that fuel entrepreneurial growth and foster a vibrant culture of startups on a path to success.
           </p>
           <div className='flex flex-wrap w-full justify-evenly items-center text-center mt-10 gap-4'>
-            <div className='w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
+            <div className='w-[360px] sm:w-[280px] md:w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
               <img src={ideas} alt="Ideate" width={100} height={100} className='w-[120px]' />
               <h1 className='text-[24px] font-SFProDisplay font-semibold text-black leading-[135%] mt-4'>
                 Ideate
@@ -34,7 +34,7 @@ function WhatWeDo() {
                 <Link to="discover">know more &rarr;</Link>
               </button>
             </div>
-            <div className='w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
+            <div className='w-[360px] sm:w-[280px] md:w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
               <img src={ideas} alt="Ideate" width={100} height={100} className='w-[120px]' />
               <h1 className='text-[24px] font-SFProDisplay font-semibold text-black leading-[135%] mt-4'>
                 Incubate
@@ -46,7 +46,7 @@ function WhatWeDo() {
                 <Link to="discover">know more &rarr;</Link>
               </button>
             </div>
-            <div className='w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
+            <div className='w-[360px] sm:w-[280px] md:w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
               <img src={ideas} alt="Ideate" width={100} height={100} className='w-[120px]' />
               <h1 className='text-[24px] font-SFProDisplay font-semibold text-black leading-[135%] mt-4'>
                 Innovate
@@ -58,7 +58,7 @@ function WhatWeDo() {
                 <Link to="discover">know more &rarr;</Link>
               </button>
             </div>
-            <div className='w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
+            <div className='w-[360px] sm:w-[280px] md:w-[220px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-white pt-4 pb-8 px-4'>
               <img src={ideas} alt="Ideate" width={100} height={100} className='w-[120px]' />
               <h1 className='text-[24px] font-SFProDisplay font-semibold text-black leading-[135%] mt-4'>
                 Serve
