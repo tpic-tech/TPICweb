@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import rocket from "../../assets/who.gif";
+import WhatWeDo from "./WhatWeDo";
 
 function WhoWeAre() {
   return (
@@ -81,6 +82,7 @@ function WhoWeAre() {
             </div>
           </div>
         </div>
+        <WhatWeDo/>
       </div>
     </>
   );
