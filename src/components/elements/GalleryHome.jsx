@@ -43,7 +43,7 @@ function GalleryHome() {
               />
             </div>
           </div>
-          <div className="flex flex-wrap flex-row mt-2">
+          <div className="flex flex-wrap flex-row">
             <div className="md:w-[33%] ">
               <img
                 src={images}
