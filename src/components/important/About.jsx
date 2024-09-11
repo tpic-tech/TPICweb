@@ -16,7 +16,7 @@ function About() {
           <h2 className="text-white text-[20px] sm:text-[24px] md:text-[32px] leading-[135%] font-medium">
             Accelerate Your{" "}
             <span className="text-base2 font-bold">Entreprenurship</span>{" "}
-            Journry!
+            Journey!
           </h2>
           <p className="text-white text-[16px] md:text-[20px] leading-[135%] mt-4 text-justify">
             Welcome to the dynamic entrepreneurial hub of HNBGU Srinagar, where
