@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/HNBG-new-logo 1.png";
+// import logo from "../../assets/HNBG-new-logo 1.png";
+import TPIClogo from "../../assets/TPIC_logo-removebg-preview.png";
+
 
 const Header = () => {
   const [isSideBarOpen, setIsSideBarOpen] = useState(true);
@@ -25,7 +27,7 @@ const Header = () => {
           <div className="flex flex-wrap justify-between items-center max-w-screen-xl mx-auto">
             <Link to="/" className="flex items-center">
               <img
-                src={logo}
+                src={TPIClogo}
                 alt="logo"
                 width={100}
                 height={100}

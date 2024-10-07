@@ -113,7 +113,9 @@ function Discover() {
       <div>
         <Outlet />
       </div>
-      {/* <DiscoverPage /> */}
+      {/* <div className="text-white font-bold font-Montserrat">
+        hello
+      </div> */}
     </>
   );
 }

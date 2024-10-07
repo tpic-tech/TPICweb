@@ -11,16 +11,16 @@ function Message() {
           </h1>
           <div className="text-center mt-4 inline-block h-1 w-[320px] bg-base2 rounded-lg"></div>
         </div>
-        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-16 rounded-md border-2 border-base3 py-10 px-4 sm:px-10 ">
+        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-16 rounded-xl border-2 border-base3 py-16 px-4 sm:px-10 ">
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
               src={teacher}
               alt="Teacher Coordinator"
               width={250}
               height={250}
-              className="w-[80px] sm:w-[120px] object-cover rounded-full border-4 border-base2"
+              className="w-[80px] sm:w-[160px] object-cover rounded-full border-4 border-base2"
             />
-            <div className="mt-2 flex flex-wrap flex-col justify-center items-center">
+            <div className="mt-4 flex flex-wrap flex-col justify-center items-center">
               <h2 className="text-[18px] font-SFProDisplay  font-bold leading-[135%] text-base3">
                 Dr. Digar Singh
               </h2>
@@ -34,37 +34,45 @@ function Message() {
               Ideate. Incubate. Inovtate. Serve
             </h2>
             <p className="text-[14px] sm:text-[16px] font-Montserrat font-normal leading-[135%] text-white text-justify mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-              obcaecati quasi odit, aliquam necessitatibus est placeat eum nulla
-              dolore consequatur, quidem, blanditiis eligendi laboriosam
-              excepturi voluptate? Natus eligendi minus est. Provident illum
-              minus aspernatur voluptas recusandae eos incidunt, totam facere
-              voluptatibus laudantium mollitia eaque tenetur doloremque aliquam
-              consequuntur sed nulla, labore nihil suscipit, neque facilis? Quae
-              dolor adipisci recusandae voluptas? Mollitia corrupti, illum atque
-              similique fuga ea repellendus, possimus, dolorum non quas enim
-              maiores libero. Doloribus sunt commodi obcaecati itaque
-              consectetur libero quisquam quaerat atque? Architecto quis
-              corporis labore exercitationem. Recusandae, exercitationem fugit
-              dicta maiores, sed sint commodi nihil a reprehenderit, animi
-              placeat. Nemo et ipsum tempora placeat cumque officia qui dolorum
-              eius error enim, praesentium ipsam dolores excepturi voluptate!
-              Similique molestias quisquam maxime. Tempora ducimus eveniet eum?
-              Consectetur, consequatur. Alias ex quia in quibusdam ratione!
-              Ratione, illum vero assumenda consectetur facere deserunt saepe
-              aperiam rem neque recusandae tempore consequatur. Tempora, nobis
-              provident exercitationem aspernatur illo, repellat ipsam officia
-              enim reprehenderit neque iusto aperiam obcaecati vel? Dignissimos
-              similique quisquam facilis ducimus recusandae enim numquam veniam
-              asperiores. Sint vitae reprehenderit voluptate? Voluptates, enim?
-              Fuga, accusantium voluptas nihil totam iste molestias. Illum in
-              consequatur porro itaque possimus vitae quam nesciunt qui? Animi
-              doloremque iste blanditiis odit eos laudantium vitae libero ea ut?
-              Esse labore omnis, excepturi veniam maiores vero minus quia animi,
-              modi optio asperiores non velit pariatur aliquam! Explicabo, amet.
-              Accusantium libero voluptas quas facilis non cupiditate suscipit
-              dicta labore minima?
+              As one of the founding Coordinators of the Technology
+              Pre-Incubation Cell (TPIC), I am filled with enthusiasm for this
+              exhilarating journey of fostering innovation, entrepreneurship,
+              and forward-thinking at HNB Garhwal University. Since TPIC’s
+              formal establishment in February 2024, we have already marked
+              significant achievements. <br />
+              One of our most notable milestones has been the signing of two
+              MoUs with iHUB DivyaSampark and IIT Roorkee, both Section 8
+              companies. These partnerships cement our collaboration on
+              Cyber-Physical Systems (CPS) innovations, focusing on cutting-edge
+              fields such as Machine Learning (ML) and the Internet of Things
+              (IoT). By working together, we aim to create avenues for
+              entrepreneurship development and advanced training for students,
+              bringing practical and meaningful change to areas that are
+              essential for our region's growth—specifically, ed-tech,
+              healthcare, climate change, and natural disaster forecasting.
+              <br />
+              &#34; What led to the formation of this vision for TPIC was a desire to
+              bridge the gap between academic learning and real-world
+              application. There is a growing need for practical solutions,
+              especially in regions like ours, where technology can play a
+              crucial role in addressing pressing societal challenges. From the
+              beginning, our focus has been on scouting CPS-related ideas for
+              potential start-ups and existing industries, as well as tapping
+              into government initiatives like the NIDHI grants, BioNEST,
+              BioEnabler, and the Biotechnology Ignition Grant from BIRAC. &#34;
+              <br />
+              This effort is driven by a passionate team of faculty and students
+              who share a common goal: to cultivate a vibrant ecosystem of
+              innovation that empowers the next generation of entrepreneurs and
+              leaders in CPS. Together, we are not only creating opportunities
+              but building a future-oriented foundation for
+              innovation in this region. <br />
             </p>
+            <h2 className="mt-12 text-white font-semibold font-Montserrat text-[18px]">
+              Dr. Digar Singh
+              <br />
+              Faculty Co-ordinator, TPIC
+            </h2>
           </div>
         </div>
         <div className="mt-20">
