@@ -35,7 +35,7 @@ export default {
         xxxl: "40px",
       },
       backgroundImage: {
-        'magic-pattern': "url('./src/assets/magicpattern-grid-pattern-1723810490464.png')",
+        'magic-pattern': "url('./src/assets/magicpattern.png')",
       },
     },
   },

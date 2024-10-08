@@ -8,14 +8,14 @@ function StudentPresident() {
       <p className="text-base3 font-semibold text-[16px] sm:text-[18px] mb-8">
         Core Members
       </p>
-      <div className="flex flex-wrap gap-x-16 w-full mx-auto  justify-center items-center">
+      <div className="flex flex-wrap gap-8 sm:gap-16 w-full mx-auto  justify-center items-center">
         <div className="flex flex-wrap flex-col justify-center items-center">
           <img
             src={analyst}
             alt="Research and Development"
             width={240}
             height={240}
-            className="w-160px sm:w-240px rounded-md mb-2 "
+            className="w-[120px] sm:w-[160px] rounded-md mb-2 "
           />
           <p className="text-base2 font-semibold text-[16px] sm:text-[20px]">
             Rahul Singh
@@ -30,7 +30,7 @@ function StudentPresident() {
             alt="Research and Development"
             width={240}
             height={240}
-            className="w-160px sm:w-240px rounded-md mb-2 "
+            className="w-[120px] sm:w-[160px] rounded-md mb-2 "
           />
           <p className="text-base2 font-semibold text-[16px] sm:text-[20px]">
             Aayushi uniyal
