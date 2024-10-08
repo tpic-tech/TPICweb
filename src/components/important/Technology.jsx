@@ -1,6 +1,6 @@
 import React from 'react'
-import coordinator from "../../assets/ravi.jpg"
-function Tech() {
+
+function Technology() {
   return (
     <>
       <div className='max-w-screen-lg mx-auto flex flex-wrap justify-center item-center mt-10 px-6'>
@@ -33,4 +33,4 @@ function Tech() {
   )
 }
 
-export default Tech
+export default Technology
