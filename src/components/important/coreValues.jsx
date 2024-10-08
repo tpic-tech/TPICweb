@@ -10,7 +10,7 @@ function CoreValues() {
           </h1>
           <div className="text-center mt-4 inline-block h-1 w-[240px] bg-base2 rounded-lg"></div>
         </div>
-        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-16 ">
+        <div className="w-full flex flex-wrap flex-col justify-center items-center mt-8 ">
           <ul className="text-white text-justify text-[16px] sm:text-[20px] -tracking-tight leading-[135%]">
             <li className=" text-base2 font-semibold text-[18px] sm:text-[24px]">
               Innovation: {" "}

@@ -4,7 +4,7 @@ import Message from './Message'
 function DiscoverPage() {
   return (
     <>
-    <div className='max-w-screen-lg mx-auto flex flex-wrap justify-center item-center mt-10 px-6'>
+    <div className='max-w-screen-lg mx-auto flex flex-wrap justify-center item-center mt-10 px-6 mb-20'>
       <div className='flex flex-wrap flex-col justify-center item-center text-center'>
       <div className='flex flex-wrap flex-col justify-center items-center text-center'>
       <h1 className='text-base3 font-SFPro text-[32px] sm:text-[40px] md:text-[48px] font-bold leading-[135%]'>

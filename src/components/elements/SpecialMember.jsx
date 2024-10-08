@@ -14,12 +14,12 @@ function SpecialMember() {
               alt="Research and Development"
               width={240}
               height={240}
-              className="w-[120px] sm:w-[160px] rounded-md mb-2 "
+              className="w-[200px] sm:w-[240px] rounded-md mb-2 "
             />
             <p className="text-base2 font-semibold text-[16px] sm:text-[20px]">
               Rahul Singh
             </p>
-            <p className="text-base font-semibold text-[14px] sm:text-[16px] sm:-mt-1">
+            <p className="text-base font-bold text-[14px] sm:text-[16px] sm:-mt-1">
               Research Assistant
             </p>
           </div>

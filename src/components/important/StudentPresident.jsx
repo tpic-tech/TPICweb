@@ -21,7 +21,7 @@ function StudentPresident() {
             Rahul Singh
           </p>
           <p className="text-base font-semibold text-[14px] sm:text-[16px] -mt-1">
-            Reseach Asistant
+            Reseach Assistant
           </p>
         </div>
         <div className="flex flex-wrap flex-col justify-center items-center">

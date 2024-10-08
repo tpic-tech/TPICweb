@@ -8,7 +8,7 @@ function Footer() {
     <>
       <footer className="bg-base w-full mt-[40px] sm:mt-[80px] px-6">
         <div className="mx-auto max-w-screen-xl pt-10 pb-10">
-          <div className="flex flex-wrap justify-between  grid-flow-row">
+          <div className="flex flex-wrap justify-between mx-auto gap-8 grid-flow-row">
             <nav className="mb-4">
               <div>
                 <h2 className="text-white font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
@@ -25,8 +25,8 @@ function Footer() {
                   Technology Pre-Incubation Cell
                 </h2>
                 <p className="text-white font-Montserrat text-[14px] sm:text-[16px] font-semibold leading-[135%]">
-                  Hemvati Nandan Bahuguna Garhwal University, <br /> Chauras
-                  Campus, Srinagar (Garhwal), <br /> Uttarakhand-246174
+                  Hemvati Nandan Bahuguna Garhwal University, <br /> 1st Floor, USIC Building, Chauras
+                  Campus, <br /> Srinagar (Garhwal), Uttarakhand-246174
                 </p>
               </div>
             </nav>
