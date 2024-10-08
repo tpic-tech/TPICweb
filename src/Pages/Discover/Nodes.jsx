@@ -1,7 +1,7 @@
 import React from 'react'
 import ResearchDevelopment from '../../components/important/ResearchDevelopment'
 import Finance from '../../components/important/Finance'
-import Tech from '../../components/important/tech'
+import Tech from '../../components/important/Tech'
 import MediaandBranding from '../../components/important/MediaandBranding'
 import StudentPresident from '../../components/important/StudentPresident'
 
