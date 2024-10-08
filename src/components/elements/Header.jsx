@@ -248,7 +248,7 @@ const Header = () => {
                         } hover:bg-gray-50 lg:hover:bg-transparent hover:text-base2 lg:p-0`
                       }
                     >
-                      Our Mission and Vision
+                      Mission and Vision
                     </NavLink>
                   </li>
                   <li className="py-1 px-4">

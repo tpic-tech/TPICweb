@@ -11,7 +11,7 @@ function Footer() {
           <div className="flex flex-wrap justify-between mx-auto gap-8 grid-flow-row">
             <nav className="mb-4">
               <div>
-                <h2 className="text-white font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
+                <h2 className="text-base2 font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
                   Connect with us
                 </h2>
                 {/* <img
@@ -31,7 +31,7 @@ function Footer() {
               </div>
             </nav>
             <nav className="mb-4">
-              <h2 className="text-white font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
+              <h2 className="text-base2 font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
                 Discover
               </h2>
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">
@@ -98,7 +98,7 @@ function Footer() {
               </ul>
             </nav>
             <nav className="mb-4">
-              <h2 className="text-white font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
+              <h2 className="text-base2 font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
                 Important Links
               </h2>
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">
@@ -165,7 +165,7 @@ function Footer() {
               </ul>
             </nav>
             <nav className="mb-4">
-              <h2 className="text-white font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
+              <h2 className="text-base2 font-Montserrat font-bold text-[16px] sm:text-[20px] mb-2">
                 Follow us on
               </h2>
               <ul className="text-white font-Montserrat text-[14px] sm:text-[16px] font-medium leading-[135%]">

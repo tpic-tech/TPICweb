@@ -1,6 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import coordinator from "../../assets/rahul.jpg"
 function SpecialMember() {
+    const [isActivated, setIsActivated] = useState(true);
+
+    const toggleQuote = () => {
+      setIsActivated(!isActivated);
+    };
+    
   return (
     <>
       <div className="flex flex-wrap w-full mx-auto  justify-center items-center mb-4 sm:mb-8 ">
@@ -23,21 +29,6 @@ function SpecialMember() {
               Research Assistant
             </p>
           </div>
-          {/* <div className="flex flex-wrap flex-col justify-center items-center">
-            <img
-              src={coordinator}
-              alt="Research and Development"
-              width={240}
-              height={240}
-              className="w-[120px] sm:w-[160px] rounded-md mb-2 "
-            />
-            <p className="text-base2 font-semibold text-[16px] sm:text-[20px]">
-              Dr. Rohit Meher
-            </p>
-            <p className="text-base font-semibold text-[14px] sm:text-[16px] sm:-mt-1">
-              Faculty Co-ordinator
-            </p>
-          </div> */}
         </div>
       </div>
     </>
