@@ -1,5 +1,5 @@
 import React from 'react'
-
+import coordinator from "../../assets/ravi.jpg"
 function Technology() {
   return (
     <>
