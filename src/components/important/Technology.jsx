@@ -7,7 +7,7 @@ function Technology() {
       <div className='flex flex-wrap flex-col justify-center item-center text-center'>
       <div className='flex flex-wrap flex-col justify-center items-center text-center'>
       <h1 className='text-base3 font-SFPro text-[24px] sm:text-[28px] font-bold leading-[135%]'>
-        Technical Development (Web Cell)
+        Technology Development (Web Cell)
       </h1>
       <div className='text-center mt-4 inline-block h-[2px] w-[160px] bg-base2 rounded-lg'></div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import coordinator from "../../assets//upashana.jpg"
+import coordinator from "../../assets/upashnaB.jpeg"
 function MediaandBranding() {
   return (
     <>
@@ -22,7 +22,7 @@ function MediaandBranding() {
         </p>
         <img src={coordinator} alt="Research and Development" width={240} height={240} className='w-160px sm:w-240px rounded-md mb-2 ' />
         <p className='text-base2 font-semibold text-[16px] sm:text-[20px]'>
-          Upashna Barthwal
+          Upashna Bartwal
         </p>
         <p className='text-base font-semibold text-[14px] sm:text-[16px] -mt-1'>
           Student Co-ordinator
