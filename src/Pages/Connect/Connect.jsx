@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import ContentAwaited from "../../components/elements/ContentAwaited";
 function Connect() {
   return (
-    <div>Connect</div>
-  )
+    <>
+      <div className="max-w-screen-lg mx-auto flex flex-wrap justify-center item-center mt-10 px-6 mb-20">
+        <ContentAwaited />
+      </div>
+    </>
+  );
 }
 
-export default Connect
+export default Connect;

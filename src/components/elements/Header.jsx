@@ -160,7 +160,7 @@ const Header = () => {
                     Gallery
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink
                     to="connect"
                     className={({ isActive }) =>
@@ -173,7 +173,7 @@ const Header = () => {
                   >
                     Connect
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -290,7 +290,7 @@ const Header = () => {
                       Nodes of TPIC
                     </NavLink>
                   </li>
-                  <li className="py-1 px-4">
+                  {/* <li className="py-1 px-4">
                     <NavLink
                       to="discover/partners-abd-collaborators"
                       onClick={toggleSideBar}
@@ -302,7 +302,7 @@ const Header = () => {
                     >
                       Partners and Collaborators
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               )}
             </li>
@@ -416,7 +416,7 @@ const Header = () => {
                 Gallery
               </NavLink>
             </li>
-            <li className="py-2 px-4">
+            {/* <li className="py-2 px-4">
               <NavLink
                 to="connect"
                 onClick={toggleSideBar}
@@ -428,7 +428,7 @@ const Header = () => {
               >
                 Connect
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </header>
