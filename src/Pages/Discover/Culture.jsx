@@ -18,6 +18,7 @@ function Culture() {
       TPIC has been a cornerstone of entrepreneurial culture on campus. At TPIC, we approach every initiative with passion and precision, uniting a diverse group that shares a common vision—bringing entrepreneurship to the forefront. We are committed to exploring uncharted territories and constantly innovating with impactful and improved initiatives. Our guiding principle is to nurture and grow while fostering an engaging and collaborative learning environment. To achieve this, we organize intra-team brainstorming sessions, founder interactions, team discussions, webinars, and annual trips, creating a dynamic and enriching experience for all.
       </p>
       </div>
+      <div className='text-center mt-4  sm:mt-12 inline-block h-[1px] w-full bg-slate-400 rounded-lg '></div> 
       <div className='mt-8 sm:mt-12 md:mt-16'>
       <CoreValues/>
       </div>

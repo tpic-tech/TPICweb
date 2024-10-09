@@ -30,9 +30,9 @@ function Discover() {
           </div>
         </div>
         <div className="w-full bg-base/60">
-          <div className="px-6 py-2 sm:py-4 pb-4 flex flex-wrap max-w-screen-xl justify-evenly mx-auto text-white">
-            <div className="w-full overflow-x-auto lg:overflow-visible">
-              <ul className="flex mt-4 font-bold text-[16px] font-Montserrat leading-[135%] space-x-8 lg:flex-row lg:space-x-24 lg:mt-0 whitespace-nowrap">
+          <div className="px-6 py-2 sm:py-4 pb-4 flex flex-wrap max-w-screen-xl justify-evenly items-center mx-auto text-white">
+            <div className="w-full flex overflow-x-auto lg:overflow-visible justify-evenly items-center">
+              <ul className="flex justify-evenly items-center mt-4 font-bold text-[16px] font-Montserrat leading-[135%] space-x-8 lg:flex-row lg:space-x-24 lg:mt-0 whitespace-nowrap">
                 <li>
                   <NavLink
                     to="who-we-are"
@@ -93,7 +93,7 @@ function Discover() {
                     Nodes of TPIC
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink
                     to="partners-and-collaborators"
                     className={({ isActive }) =>
@@ -104,7 +104,7 @@ function Discover() {
                   >
                     Partners and Collaborators
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -19,7 +19,7 @@ function Nodes() {
       {/* <img src={team} alt="statrtup" width={1200} height={1200} className="w-[360px] items-center" /> */}
       <p className='mt-10 text-white text-justify sm:text-center text-[16px] sm:text-[20px] -tracking-tight leading-[135%]'>
       In TPIC, the "Node" refers to specialized departments that are vital to the smooth operation of the Technology Pre-Incubation Cell. These Nodes include areas such as Media and Branding, Finance and Management, Technology, and Research and Development. Each Node acts as a pillar, overseeing specific functions like project management, resource coordination, mentoring, and event execution. Together, they ensure TPIC runs efficiently by facilitating communication, organizing activities, and addressing the needs of budding entrepreneurs. While TPIC focuses on fostering innovation and entrepreneurial growth, these Nodes provide essential support, aligning with TPIC's core values — <span className='text-base2 text-center '>
-      "Ideate, Incubate, Innovate, and Serve."
+      "Ideate, Incubate, Innovate, and Serve"
       </span>
       </p>
       </div>

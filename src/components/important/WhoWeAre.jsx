@@ -22,7 +22,7 @@ function WhoWeAre() {
               The Technology Pre-Incubation Cell (TPIC) is a student-run initiative designed to nurture and develop early-stage tech ideas and innovations. It serves as a foundational platform for aspiring entrepreneurs, researchers, and students to refine their concepts and transform them into viable business models.
 
               </p>
-              <button className="mt-8 border-2  border-slate-700 hover:border-slate-500 bg-slate-700 hover:bg-slate-500 text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[12px] sm:text-[16px]">
+              <button className="mt-8 border-2  border-slate-700 hover:border-black bg-slate-700 hover:bg-black text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[12px] sm:text-[16px]">
                 <Link to="discover/who-we-are">
                   Get to know more about TPIC &rarr;
                 </Link>
@@ -61,15 +61,9 @@ function WhoWeAre() {
             Journry!
           </h2> */}
               <p className="text-white text-[16px] md:text-[20px] leading-[135%] mt-6 text-justify">
-                The Technology Pre-Incubation Cell (TPIC) is a supportive
-                framework designed to nurture and develop early-stage tech ideas
-                and innovations. It serves as a foundational platform for
-                aspiring entrepreneurs, researchers, and students to refine
-                their concepts and transform them into viable business models.
-                The cell offers a range of services including mentorship, access
-                to resources, and networking opportunities.
+              The Technology Pre-Incubation Cell (TPIC) is a student-run initiative designed to nurture and develop early-stage tech ideas and innovations. It serves as a foundational platform for aspiring entrepreneurs, researchers, and students to refine their concepts and transform them into viable business models
               </p>
-              <button className="mt-8 border-2  border-slate-700 hover:border-slate-500 bg-slate-700 hover:bg-slate-500 text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[16px] sm:text-[16px]">
+              <button className="mt-8 border-2  border-slate-700 hover:border-black bg-slate-700 hover:bg-black text-white hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-light  text-[16px] sm:text-[16px]">
                 <Link to="discover/who-we-are">
                   Get to know more about TPIC &rarr;
                 </Link>

@@ -1,6 +1,8 @@
 import React from "react";
-import coordinator from "../../assets/aayushi.jpeg";
+import coordinator from "../../assets/aayushi1.jpeg";
 import analyst from "../../assets//rahul.jpg";
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 
 function StudentPresident() {
   return (
@@ -23,6 +25,10 @@ function StudentPresident() {
           <p className="text-base font-semibold text-[14px] sm:text-[16px] -mt-1">
             Reseach Assistant
           </p>
+          <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://www.linkedin.com/in/rahul-singh-rs1106?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/ray_eternal_life?igsh=eTlydmdyaHdjMmls"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
         </div>
         <div className="flex flex-wrap flex-col justify-center items-center">
           <img
@@ -38,8 +44,13 @@ function StudentPresident() {
           <p className="text-base font-semibold text-[14px] sm:text-[16px] -mt-1">
             Student Head
           </p>
+          <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://www.linkedin.com/in/aayushii-uniyal-4b25b8212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/aayuuniyaal/"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
         </div>
       </div>
+      <div className='text-center mt-4  sm:mt-12 inline-block h-[1px] w-full bg-slate-400 rounded-lg '></div>
     </div>
   );
 }

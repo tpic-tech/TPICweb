@@ -1,9 +1,13 @@
 import React from "react";
-import aayushi from "../../assets/aayushi.jpeg";
+import aayushi from "../../assets/aayushi1.jpeg";
 import khushi from "../../assets/khushi.jpg";
 import ravi from "../../assets/ravi.jpg";
 import upashna from "../../assets/upashnaB.jpeg";
 import bhashkar from "../../assets/bhashkar.jpg";
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { MdEmail } from "react-icons/md";
+
 function StudentCoordinator() {
   return (
     <>
@@ -26,6 +30,11 @@ function StudentCoordinator() {
             <p className="text-base font-bold text-[12px] sm:text-[16px] text-center">
               Student Head & Co-ordinator, <br /> Startup Management
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
@@ -42,6 +51,11 @@ function StudentCoordinator() {
               Student Co-ordinator, <br />
               Research and Development
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
@@ -57,6 +71,11 @@ function StudentCoordinator() {
             <p className="text-base font-bold text-[12px] sm:text-[16px]  text-center">
               Student Co-ordinator, <br /> Media and Branding
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
@@ -72,6 +91,11 @@ function StudentCoordinator() {
             <p className="text-base font-bold text-[12px] sm:text-[16px]  text-center">
               Student Co-ordinator, <br /> Technology Development
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
@@ -87,6 +111,11 @@ function StudentCoordinator() {
             <p className="text-base font-bold text-[12px] sm:text-[16px]  text-center">
               Student Co-ordinator, <br /> Financial Management
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
         </div>
       </div>

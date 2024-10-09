@@ -1,5 +1,8 @@
 import React from "react";
 import coordinator from "../../assets/khushi.jpg";
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+
 function ResearchDevelopment() {
   return (
     <>
@@ -43,7 +46,12 @@ function ResearchDevelopment() {
           <p className="text-base font-semibold text-[14px] sm:text-[16px] -mt-1">
             Co-ordinator
           </p>
+          <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://www.linkedin.com/in/khushi-sharma-191799321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_khushiii002"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
         </div>
+        <div className='text-center mt-4  sm:mt-12 inline-block h-[1px] w-full bg-slate-400 rounded-lg '></div>
       </div>
     </>
   );

@@ -1,5 +1,8 @@
 import React from 'react'
 import coordinator from "../../assets/upashnaB.jpeg"
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+
 function MediaandBranding() {
   return (
     <>
@@ -27,7 +30,12 @@ function MediaandBranding() {
         <p className='text-base font-semibold text-[14px] sm:text-[16px] -mt-1'>
           Co-ordinator
         </p>
+        <div className="flex flex-wrap gap-4  mt-2">
+            <a href="http://Linkedin.com/in/upashna-bartwal-9baab1303"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/upashna_bartwal"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
       </div>
+      {/* <div className='text-center mt-4  sm:mt-12 inline-block h-[1px] w-full bg-slate-400 rounded-lg '></div> */}
     </div>
     </>
   )

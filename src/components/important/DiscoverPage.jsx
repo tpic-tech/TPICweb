@@ -17,6 +17,7 @@ function DiscoverPage() {
       The cell offers a range of services, including mentorship, access to resources, and valuable networking opportunities. By providing a structured environment, the cell helps minimize risks and enhances the chances of success for start-ups, allowing ideas to evolve into market-ready products or services. This student-driven approach bridges the gap between raw innovation and market entry, fostering a dynamic culture of entrepreneurship and technological advancement among the next generation of innovators.
       </p>
       </div>
+      <div className='text-center mt-4  sm:mt-12 inline-block h-[1px] w-full bg-slate-400 rounded-lg '></div>
       <div className='mt-8 sm:mt-12 md:mt-16'>
       <Message />
       </div>

@@ -92,7 +92,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="discover"
+                    to="discover/who-we-are"
                     className={({ isActive }) =>
                       `duration-200 ${
                         isActive
@@ -118,7 +118,7 @@ const Header = () => {
                     Initiatives
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink
                     to="learn"
                     className={({ isActive }) =>
@@ -131,7 +131,7 @@ const Header = () => {
                   >
                     Learn
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink
                     to="events"
@@ -319,7 +319,7 @@ const Header = () => {
                 Initiatives
               </NavLink>
             </li>
-            <li className="py-2 px-4">
+            {/* <li className="py-2 px-4">
               <NavLink
                 to="learn"
                 onClick={toggleEventDropDown}
@@ -333,7 +333,7 @@ const Header = () => {
               </NavLink>
 
               {/* Dropdown options */}
-              {isEventDropDownOpen && (
+              {/* {isEventDropDownOpen && (
                 <ul className=" text-white font-SFProDisplay">
                   <li className="py-1 px-4">
                     <NavLink
@@ -389,7 +389,7 @@ const Header = () => {
                   </li>
                   </ul>
               )}
-            </li>
+            </li>  */}
             <li className="py-2 px-4">
               <NavLink
                 to="events"

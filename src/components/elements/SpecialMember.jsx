@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 import coordinator from "../../assets/rahul.jpg"
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 function SpecialMember() {
     const [isActivated, setIsActivated] = useState(true);
 
@@ -28,6 +31,11 @@ function SpecialMember() {
             <p className="text-base font-bold text-[14px] sm:text-[16px] sm:-mt-1">
               Research Assistant
             </p>
+            <div className="flex flex-wrap gap-4  mt-2">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><MdEmail className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.linkedin.com/in/r4ravikumar"><FaLinkedin className="text-[20px] hover:text-base3/60 text-base3" /></a>
+            <a href="https://www.instagram.com/_jha.ravi"><RiInstagramFill className="text-[20px] hover:text-base3/60 text-base3" /></a>
+          </div>
           </div>
         </div>
       </div>
