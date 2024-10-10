@@ -1,28 +1,42 @@
-import React from 'react'
-import rocket from "../../assets/TPIC_logo-removebg-preview.png"
+import React from "react";
+import rocket from "../../assets/TPIC_logo-removebg-preview.png";
 function ContentAwaited() {
   return (
     <>
-      <div className="w-full h-[50vh] md:h-[60vh] lg:h-[80vh] flex flex-wrap flex-col justify-center items-center px-4 ">
-        <img
-          src={rocket}
-          alt="Content Awaited"
-          height={240}
-          width={240}
-          className="w-[120px] object-cover "
-        />
-        <div className="flex flex-wrap justify-center flex-col mx-auto  -z-10">
-          <h1 className="text-center font-poppins text-[36px] font-bold text-base2">
-            Content Comming Soon!
+      <div className="w-full flex flex-wrap flex-col justify-center items-center h-[80vh]">
+        <div>
+          <img
+            src={rocket}
+            alt="Coming Soon"
+            width={360}
+            height={360}
+            className="object-cover w-[120px]"
+          />
+        </div>
+        <div className="w-full flex flex-wrap mt-8 justify-center items-center">
+          <h1 className="text-base2 font-Montserrat font-bold text-[24px] sm:text-[32px] text-center">
+            Content Awaited
           </h1>
-          <h2 className="text-center font-poppins text-[20px] font-medium text-white">
-            We are working on something amazing. Stay Tuned!
-          </h2>
-          <p className="text-center font-poppins text-[14px] text-white/40">Why the Wait? We’re committed to quality and want to ensure that every piece of content we share meets our high standards. We’re currently crafting this section to provide you with valuable insights and resources. Our team is dedicated to delivering top-notch content that will enhance your experience and knowledge. This section will be filled with informative and engaging material soon.</p>
+        </div>
+        <div className="w-full flex flex-wrap mt-[4px] justify-center items-center">
+          <h1 className="text-white font-Montserrat font-medium text-[20px] text-center leading-[120%] tracking-tight">
+            We are working on something amazing. Stay Tuned for further
+            updates...
+          </h1>
+        </div>
+        <div className="w-full flex flex-wrap mt-[8px] justify-center items-center">
+          <h1 className="text-gray-400 font-Montserrat font-medium text-[12px] sm:text-[16px] text-center leading-[120%] tracking-tight">
+            We’re committed to quality and want to ensure that every piece of
+            content we share meets our high standards. We’re currently crafting
+            this section to provide you with valuable insights and resources.
+            Our team is dedicated to delivering top-notch content that will
+            enhance your experience and knowledge. This section will be filled
+            with informative and engaging material soon.
+          </h1>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default ContentAwaited
+export default ContentAwaited;
