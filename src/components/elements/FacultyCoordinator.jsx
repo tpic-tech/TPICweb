@@ -1,5 +1,6 @@
 import React from "react";
 import coordinator from "../../assets/Teacher Coordinator.jpg"
+import coordinator1 from "../../assets/rohitmehersir.jpg"
 function FacultyCoordinator() {
   return (
     <>
@@ -25,7 +26,7 @@ function FacultyCoordinator() {
           </div>
           <div className="flex flex-wrap flex-col justify-center items-center">
             <img
-              src={coordinator}
+              src={coordinator1}
               alt="Research and Development"
               width={240}
               height={240}
