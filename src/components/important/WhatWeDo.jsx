@@ -31,7 +31,7 @@ function WhatWeDo() {
               Ideation is the creative process of generating, developing, and refining new ideas. 
               </p>
               <button className='bg-slate-600 text-white py-1 px-6 mt-4 rounded-md hover:bg-black/80'>
-                <Link to="discover">know more &rarr;</Link>
+                <Link to="discover/who-we-are">know more &rarr;</Link>
               </button>
             </div>
             <div className='w-[360px] sm:w-[280px] md:w-[220px] h-[360px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-slate-800 pt-4 pb-8 px-4'>
@@ -43,7 +43,7 @@ function WhatWeDo() {
               To incubate means to provide the necessary environment for ideas to grow and develop. 
               </p>
               <button className='bg-slate-600 text-white py-1 px-6 mt-4 rounded-md hover:bg-black/80'>
-                <Link to="discover">know more &rarr;</Link>
+                <Link to="discover/who-we-are">know more &rarr;</Link>
               </button>
             </div>
             <div className='w-[360px] sm:w-[280px] md:w-[220px] h-[360px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-slate-800 pt-4 pb-8 px-4'>
@@ -55,7 +55,7 @@ function WhatWeDo() {
               Innovation is the act of turning creative ideas into practical solutions that bring real value.  
               </p>
               <button className='bg-slate-600 text-white py-1 px-6 mt-4 rounded-md hover:bg-black/80'>
-                <Link to="discover">know more &rarr;</Link>
+                <Link to="discover/who-we-are">know more &rarr;</Link>
               </button>
             </div>
             <div className='w-[360px] sm:w-[280px] md:w-[220px] h-[360px] flex flex-wrap flex-col justify-center items-center  shadow-md shadow-slate-500 rounded-md font-Montserrat text-black/80 bg-slate-800 pt-4 pb-8 px-4'>
@@ -67,7 +67,7 @@ function WhatWeDo() {
               To serve means to actively support and guide entrepreneurs and ideas into viable businesses.
               </p>
               <button className='bg-slate-600 text-white py-1 px-6 mt-4 rounded-md hover:bg-black/80'>
-                <Link to="discover">know more &rarr;</Link>
+                <Link to="discover/who-we-are">know more &rarr;</Link>
               </button>
             </div>
           </div>

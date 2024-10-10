@@ -27,7 +27,7 @@ function About() {
             for build a legacy of service for future innovations of tomorrow.
           </p>
           <button className="mt-8 border-2  border-base2 hover:bg-base2/60 text-base2 hover:text-white py-1 sm:py-2 px-8 rounded-xl font-SFProDisplay font-semibold  text-[16px] sm:text-[20px]">
-            <Link to="discover">Get Started</Link>
+            <Link to="discover/who-we-are">Get Started</Link>
           </button>
         </div>
       </div>

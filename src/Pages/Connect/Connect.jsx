@@ -30,7 +30,7 @@ function Connect() {
             <p className="text-center font-normal font-Montserrat text-[14px] text-white mt-2 ">
               +917060846801 (Rahul Singh, Research Assistent) <br />
               +917668162645 (Aayushi Uniyal, Student Head) <br />
-              +918271964681 (Ravi Kumar, Technicology Develooment) <span className="text-white/60 font-Montserrat text-[12px]">* For Website related issues</span>
+              +918271964681 (Ravi Kumar, Student Co-ordinator) <span className="text-white/60 font-Montserrat text-[12px]">* For Website related issues</span>
             </p>
           </div>
           <div className="w-full flex flex-wrap justify-center items-center flex-col">
