@@ -200,6 +200,9 @@ function Footer() {
             <h3 className="text-white/50 font-Montserrat text-[12px] font-semibold leading-[135%]">
               Designed and Developed by TPIC Tech Team
             </h3>
+            <h3 className="text-white/50 font-Montserrat text-[12px] font-semibold leading-[100%] mt-4 ">
+              Credits: <span className="font-bold text-white">Dr. Alok Negi </span> (Logo Design) <br /> <span className="font-bold text-white">Graphikx Studio </span> (UI Design)
+            </h3>
           </div>
         </div>
       </footer>
